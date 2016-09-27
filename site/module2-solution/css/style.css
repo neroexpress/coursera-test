@@ -5,4 +5,22 @@ body {
 h1 {
     color: navy;
     margin-left: 20px;
+    border-radius: 12px;
+	border-color: black;
+}
+
+#p1{
+	color: blue;
+	padding: 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+}
+
+#p2{
+	color: red;
+	background-color: grey;
+	padding: 10px;
+	border-left: orange solid 6px;
+	
 }
