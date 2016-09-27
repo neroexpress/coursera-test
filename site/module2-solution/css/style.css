@@ -3,24 +3,254 @@ body {
 }
 
 h1 {
-    color: navy;
+    color: black;
     margin-left: 20px;
-    border-radius: 12px;
-	border-color: black;
+    font-family: cursive;
+    text-align: center;
+    font-size: 175%;
 }
 
-#p1{
-	color: blue;
-	padding: 10px;
-	border-style: solid;
-	border-width: 2px;
-	border-color: black;
+p {
+  width: 93%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: fantasy;
+  color: white;
+  text-align: left;
+  color: black;
+  padding: 25px;
+  font-size: 100%;
 }
 
-#p2{
-	color: red;
-	background-color: grey;
-	padding: 10px;
-	border-left: orange solid 6px;
+.spanClassChicken{
+	padding: 4px;
+	background-color: #E9967A;
+	border-bottom : 2px solid black;
+	border-left : 2px solid black;
+	float: right;
+	color: black;
+	font-size: 125%;
+
+}
+.spanClassBeef{
+	padding: 4px;
+	background-color: #B22222;
+	border-bottom : 2px solid black;
+	border-left : 2px solid black;
+	float: right;
+	color: white;
+	font-size: 125%;
+}
+.spanClassShushi{
+	padding: 4px;
+	background-color: #FAFAD2;
+	border-bottom : 2px solid black;
+	border-left : 2px solid black;
+	float: right;
+	color: black;
+	font-size: 125%;
+}
+
+
+*{
+box-sizing: border-box;
+}
+
+.row{
+	width: 98%;
+	margin: 2%;
+}
+
+@media(min-width: 992px){
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, 
+	.col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+    border: 2px solid black
+  }
+   .col-lg-1 {
+    width: 8.33%;
+    background-color: grey;
+    
+  }
+  .col-lg-2 {
+    width: 16.66%;
+    background-color: grey;
+    
+  }
+  .col-lg-3 {
+    width: 25%;
+    background-color: grey;
+    
+  }
+  .col-lg-4 {
+    width: 31.33%;
+    background-color: grey;
+    margin-right: 2%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+    background-color: grey;
+  }
+  .col-lg-6 {
+    width: 50%;
+    background-color: grey;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+    background-color: grey;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+    background-color: grey;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+    background-color: grey;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+    background-color: grey;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+    background-color: grey;
+  }
+  .col-lg-12 {
+    width: 100%;
+    background-color: grey;
+  }
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, 
+	.col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    border: 2px solid black
+
+  }
+   .col-md-1 {
+    width: 8.33%;
+    background-color: grey;
+    
+  }
+  .col-md-2 {
+    width: 16.66%;
+    background-color: grey;
+    
+  }
+  .col-md-3 {
+    width: 25%;
+    background-color: grey;
+    
+  }
+  .col-md-4 {
+    width: 33.33%;
+    background-color: grey;
+  }
+  .col-md-5 {
+    width: 41.66%;
+    background-color: grey;
+  }
+  .col-md-6 {
+    width: 48%;
+    background-color: grey;
+    margin-right: 2%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+    background-color: grey;
+  }
+  .col-md-8 {
+    width: 66.66%;
+    background-color: grey;
+  }
+  .col-md-9 {
+    width: 74.99%;
+    background-color: grey;
+  }
+  .col-md-10 {
+    width: 83.33%;
+    background-color: grey;
+  }
+  .col-md-11 {
+    width: 91.66%;
+    background-color: grey;
+  }
+  .col-md-12 {
+    width: 98%;
+    background-color: grey;
+    margin-top: 2%;
+    margin-right: 2%;
+  }
+}
+
+@media(max-width: 767px){
 	
+	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, 
+	.col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+    border: 2px solid black
+
+  }
+   .col-sm-1 {
+    width: 8.33%;
+    background-color: grey;
+    
+  }
+  .col-sm-2 {
+    width: 16.66%;
+    background-color: grey;
+    
+  }
+  .col-sm-3 {
+    width: 25%;
+    background-color: grey;
+    
+  }
+  .col-sm-4 {
+    width: 33.33%;
+    background-color: grey;
+    
+  }
+  .col-sm-5 {
+    width: 41.66%;
+    background-color: grey;
+  }
+  .col-sm-6 {
+    width: 50%;
+    background-color: grey;
+  }
+  .col-sm-7 {
+    width: 58.33%;
+    background-color: grey;
+  }
+  .col-sm-8 {
+    width: 66.66%;
+    background-color: grey;
+  }
+  .col-sm-9 {
+    width: 74.99%;
+    background-color: grey;
+  }
+  .col-sm-10 {
+    width: 83.33%;
+    background-color: grey;
+  }
+  .col-sm-11 {
+    width: 91.66%;
+    background-color: grey;
+  }
+  .col-sm-12 {
+    width: 100%;
+    background-color: grey;
+  }
 }
+
+
+
+
+
+
+
+
