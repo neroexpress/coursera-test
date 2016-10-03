@@ -1,8 +1,50 @@
 body{
 	background-color: #61122f;
 	color: #fff;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 24px;
+}
+
+#header-nav{
+	border-radius: 0;
+	border:0;
+}
+
+#name-restaurant{
+font-size: 24px;
 }
 
 #nav-list{
 	text-align: center; 
+}
+
+h1.header-name{
+	padding: 5px;
+	margin: 10px;
+}
+
+div.main-heading span{
+	font-family: 'Oxygen', sans-serif;
+	
+}
+
+
+
+.para-heading{
+background-color: grey;
+margin: 10px;
+}
+
+.para-content{
+margin: 10px;
+margin-top: -10px;
+text-align: justify;
+padding: 10px;
+color: black;
+}
+
+
+.chicken-heading{
+margin-top: 10px;
+color: black;
 }
