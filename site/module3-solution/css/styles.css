@@ -8,6 +8,11 @@ body{
 #header-nav{
 	border-radius: 0;
 	border:0;
+	background-color: grey;
+}
+
+ #header-nav .navbar-brand{
+	color: black;
 }
 
 #name-restaurant{
