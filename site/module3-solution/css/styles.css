@@ -15,7 +15,9 @@ font-size: 24px;
 }
 
 #nav-list{
-	text-align: center; 
+background-color: #f6b319;
+margin-bottom: 0px;
+margin-top: 0px;
 }
 
 h1.header-name{
@@ -23,28 +25,36 @@ h1.header-name{
 	margin: 10px;
 }
 
-div.main-heading span{
-	font-family: 'Oxygen', sans-serif;
-	
+div.main-heading{
+	font-family: 'Oxygen', sans-serif;	
+	margin-bottom: 10px;
 }
-
-
 
 .para-heading{
 background-color: grey;
-margin: 10px;
+margin-bottom: 20px;
+color: black;
+}
+
+.para-heading:hover{
+box-shadow: 0 1px 5px 1px #cccccc;
 }
 
 .para-content{
-margin: 10px;
-margin-top: -10px;
 text-align: justify;
-padding: 10px;
+padding-right: 20px; padding-bottom: 20px; padding-left: 20px;
 color: black;
 }
-
 
 .chicken-heading{
 margin-top: 10px;
-color: black;
 }
+
+.chicken-heading .menu-heading{
+	font-family: "Courier New", Courier, monospace;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+
+
